@@ -63,11 +63,11 @@ Supporting literature.
 ## Results
 
 <p align="center">
-    <img src="imageness/Esquemático circuital.png" width="900">
+    <img src="imagenes/Esquemático circuital.png" width="900">
 </p>
 
 <p align="center">
-    <img src="images/Simulaciones.png" width="850">
+    <img src="imagenes/Simulaciones.png" width="850">
 </p>
 
 
