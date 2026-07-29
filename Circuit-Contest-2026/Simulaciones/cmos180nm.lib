@@ -1,0 +1,61 @@
+* PTM 180nm CMOS — Generic model para LTspice
+* Fuente: Predictive Technology Model, Arizona State University
+* VDD = 1.8V, Tox = 4nm
+
+.model NMOS_VTH NMOS level=14
++ version=4.0 tox=4e-9 toxe=4e-9 toxp=3e-9 toxm=4e-9
++ dtox=1e-9 epsrox=3.9 wint=5e-9 lint=1.0e-9
++ vth0=0.3999 k1=0.4487 k2=0.0 k3=0.0
++ k3b=0.0 w0=2.5e-6 dvt0=1.0 dvt1=2.0 dvt2=0.0
++ dvt0w=0.0 dvt1w=0.0 dvt2w=0.0 dsub=0.1 minv=0.05
++ voffl=0.0 dvtp0=1e-10 dvtp1=0.1 lpe0=5.75e-7
++ lpeb=2.31e-10 xj=2e-8 ngate=5e+20 ndep=1.7e+18
++ nsd=1e+20 phin=0.0 cdsc=2.4e-4 cdscb=0.0 cdscd=0.0
++ cit=0.0 voff=-0.13 etab=-0.0023 vfb=-0.55
++ u0=0.0670 ua=6e-10 ub=1.2e-18 uc=0.0
++ vsat=1.3e+5 a0=1.0 ags=0.0 a1=0.0 a2=1.0
++ b0=0.0 b1=0.0 keta=0.04 dwg=0.0 dwb=0.0
++ pclm=0.02 pdiblc1=0.0 pdiblc2=0.0 pdiblcb=0.0
++ drout=0.45 pvag=1e-20 delta=0.01 pscbe1=8.14e+8
++ pscbe2=1e-7 fprout=0.0 pdits=0.0 pditsd=0.0
++ pditsl=0.0 rsh=0.0 rdsw=150 rsw=150 rdw=150
++ rdswmin=0 rdwmin=0 rswmin=0 prwb=0.0 prwg=0.0
++ wr=1.0 alpha0=0.074 alpha1=0.005 beta0=30.0
++ agidl=0.0002 bgidl=2.1e9 cgidl=0.0002 egidl=0.8
++ aigbacc=0.012 bigbacc=0.0028 cigbacc=0.002
++ nigbacc=1.0 aigbinv=0.014 bigbinv=0.004 cigbinv=0.004
++ eigbinv=1.1 nigbinv=3.0 aigc=0.012 bigc=0.0028
++ cigc=0.002 aigsd=0.012 bigsd=0.0028 cigsd=0.002
++ nigc=1.0 poxedge=1.0 pigcd=1.0 ntox=1.0
++ xrcrg1=12.0 xrcrg2=5.0 tnom=27.0 cgso=6.5e-10
++ cgdo=6.5e-10 cgbo=0.0 cgdl=0.0 cgsl=0.0
++ clc=1e-7 cle=0.6 cf=0.0 stcond=1.0 noff=1.0
+
+.model PMOS_VTH PMOS level=14
++ version=4.0 tox=4e-9 toxe=4e-9 toxp=3e-9 toxm=4e-9
++ dtox=1e-9 epsrox=3.9 wint=5e-9 lint=1.0e-9
++ vth0=-0.4039 k1=0.4015 k2=0.0 k3=0.0
++ k3b=0.0 w0=2.5e-6 dvt0=1.0 dvt1=2.0 dvt2=0.0
++ dvt0w=0.0 dvt1w=0.0 dvt2w=0.0 dsub=0.1 minv=0.05
++ voffl=0.0 dvtp0=1e-10 dvtp1=0.1 lpe0=5.75e-7
++ lpeb=2.31e-10 xj=2e-8 ngate=5e+20 ndep=1.7e+18
++ nsd=1e+20 phin=0.0 cdsc=2.4e-4 cdscb=0.0 cdscd=0.0
++ cit=0.0 voff=-0.126 etab=-0.0423 vfb=-0.55
++ u0=0.0160 ua=2.25e-9 ub=5e-19 uc=0.0
++ vsat=7.0e+4 a0=1.0 ags=0.0 a1=0.0 a2=1.0
++ b0=0.0 b1=0.0 keta=0.04 dwg=0.0 dwb=0.0
++ pclm=0.02 pdiblc1=0.0 pdiblc2=0.0 pdiblcb=0.0
++ drout=0.45 pvag=1e-20 delta=0.01 pscbe1=8.14e+8
++ pscbe2=1e-7 fprout=0.0 pdits=0.0 pditsd=0.0
++ pditsl=0.0 rsh=0.0 rdsw=240 rsw=240 rdw=240
++ rdswmin=0 rdwmin=0 rswmin=0 prwb=0.0 prwg=0.0
++ wr=1.0 alpha0=0.074 alpha1=0.005 beta0=30.0
++ agidl=0.0002 bgidl=2.1e9 cgidl=0.0002 egidl=0.8
++ aigbacc=0.012 bigbacc=0.0028 cigbacc=0.002
++ nigbacc=1.0 aigbinv=0.014 bigbinv=0.004 cigbinv=0.004
++ eigbinv=1.1 nigbinv=3.0 aigc=0.012 bigc=0.0028
++ cigc=0.002 aigsd=0.012 bigsd=0.0028 cigsd=0.002
++ nigc=1.0 poxedge=1.0 pigcd=1.0 ntox=1.0
++ xrcrg1=12.0 xrcrg2=5.0 tnom=27.0 cgso=6.5e-10
++ cgdo=6.5e-10 cgbo=0.0 cgdl=0.0 cgsl=0.0
++ clc=1e-7 cle=0.6 cf=0.0 stcond=1.0 noff=1.0
