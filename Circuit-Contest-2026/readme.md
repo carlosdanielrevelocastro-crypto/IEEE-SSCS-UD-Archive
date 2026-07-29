@@ -16,7 +16,6 @@ The objective was to design and simulate an integrated interface for a metal-oxi
 
 - Carlos Revelo
 - Juan Camilo Cupasachoa Gómez
-- ...
 
 ---
 
