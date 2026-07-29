@@ -14,7 +14,7 @@ The objective was to design and simulate an integrated interface for a metal-oxi
 
 ## Team
 
-- Carlos Revelo
+- Carlos Daniel Revelo Castro
 - Juan Camilo Cupasachoa Gómez
 
 ---
