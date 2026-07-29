@@ -62,13 +62,14 @@ Supporting literature.
 
 ## Results
 
-✔ Functional simulation
+<p align="center">
+    <img src="imageness/Esquemático circuital.png" width="900">
+</p>
 
-✔ Paper submission
+<p align="center">
+    <img src="images/Simulaciones.png" width="850">
+</p>
 
-✔ Competition participation
-
----
 
 ## License
 
